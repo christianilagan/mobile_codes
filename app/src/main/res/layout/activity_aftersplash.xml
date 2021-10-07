@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pio"
+
+
+    tools:context=".Aftersplash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="285dp"
+                android:layout_height="20dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="90dp"
+                    android:fontFamily="serif"
+                    android:text="Juan Dela Cruz"
+                    android:textColor="@color/black"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="serif"
+            android:text="Choose your preferred action"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="343dp"
+            android:layout_marginBottom="20dp"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/m1_card"
+                android:layout_width="20dp"
+                android:layout_height="55dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="169dp"
+                        android:layout_height="97dp"
+                        android:src="@drawable/calender" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/m2_card"
+                android:layout_width="20dp"
+                android:layout_height="55dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="153dp"
+                        android:layout_height="95dp"
+                        android:src="@drawable/loc" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="29dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="serif"
+                        android:text="Location"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/m3_card"
+                android:layout_width="20dp"
+                android:layout_height="55dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="156dp"
+                        android:layout_height="101dp"
+                        android:src="@drawable/profile" />
+
+                    <TextView
+                        android:layout_width="78dp"
+                        android:layout_height="29dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:fontFamily="serif"
+                        android:text="Profile"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/m4_card"
+                android:layout_width="20dp"
+                android:layout_height="55dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="163dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/reporttpng" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="29dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="3dp"
+                        android:fontFamily="serif"
+                        android:text="Report"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="210dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/m5_card"
+                android:layout_width="20dp"
+                android:layout_height="55dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#E6E3CE"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="169dp"
+                        android:layout_height="97dp"
+                        android:src="@drawable/settingse" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="29dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="serif"
+                        android:layout_marginLeft="8.5dp"
+                        android:text="Settings"
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
